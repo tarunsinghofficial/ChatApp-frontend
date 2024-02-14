@@ -1,8 +1,37 @@
-# React + Vite
+# Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple chat application built with React for the frontend and Node.js with Socket.IO for the backend.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Allows users to join chat rooms and communicate with each other in real-time.
+- Responsive design for mobile and desktop devices.
+- Easy to deploy on various platforms.
+
+## Prerequisites
+
+- Node.js and npm installed on your machine.
+- Git for version control.
+
+## Getting Started
+
+To run this application locally, follow these steps:
+
+1. Clone the repository:
+   
+`git clone https://github.com/your-username/chat-application.git
+
+2. Navigate to the client directory:
+
+`cd chat-application/client`
+
+6. Start the client:
+
+`npm run dev`
+
+Open your web browser and go to `http://localhost:3000` to view the application.
+
+## Live Preview
+
+Link- https://chat-app-frontend-theta.vercel.app/
+
