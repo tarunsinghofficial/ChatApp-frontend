@@ -30,7 +30,7 @@ function App() {
             <img
               src={Hero}
               alt="hero"
-              className="w-[40em] max-w-md md:max-w-none"
+              className="w-[25em] md:w-[35em] lg:w-[40em] max-w-md md:max-w-none"
             />
           </div>
           <div className="flex items-center justify-center p-2">
