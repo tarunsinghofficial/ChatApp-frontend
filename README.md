@@ -19,13 +19,17 @@ To run this application locally, follow these steps:
 
 1. Clone the repository:
    
-`git clone https://github.com/your-username/chat-application.git
+`git clone https://github.com/your-username/chat-application.git`
 
 2. Navigate to the client directory:
 
 `cd chat-application/client`
 
-6. Start the client:
+3. Install dependencies
+
+`npm install`
+
+4. Start the client:
 
 `npm run dev`
 
