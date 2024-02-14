@@ -39,3 +39,13 @@ Open your web browser and go to `http://localhost:3000` to view the application.
 
 Link- https://chat-app-frontend-theta.vercel.app/
 
+## Screenshots
+
+### Chat Room Join Page
+![image](https://github.com/tarunsinghofficial/ChatApp-frontend/assets/62840625/99820114-7932-44cf-ab62-78b5880cca82)
+
+### Chat UI
+![image](https://github.com/tarunsinghofficial/ChatApp-frontend/assets/62840625/c894e437-5c0e-44a5-8c1a-6abbaa48953f)
+
+### Multiple Persons Chat
+![image](https://github.com/tarunsinghofficial/ChatApp-frontend/assets/62840625/a9342d0e-5e0e-413a-be6a-e3ef900c65ab)
