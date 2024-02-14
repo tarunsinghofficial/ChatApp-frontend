@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import io from "socket.io-client"; //connect to socket.io server
+import io from "socket.io-client"; 
 import Chat from "./Components/Chat";
 import { IoIosPeople } from "react-icons/io";
 import Hero from "../src/assets/hero.svg";

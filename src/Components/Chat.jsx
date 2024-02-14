@@ -39,7 +39,7 @@ function Chat({ socket, name, room }) {
   }, [socket]);
 
   return (
-    <div className="container mx-auto space-y-5 h-screen p-4 ">
+    <div className="container mx-auto space-y-5 p-4 ">
       <div className="container mx-auto">
         <div className="container mx-auto flex flex-col">
           <div className="bg-green-primary rounded-md p-2 text-white">
@@ -59,7 +59,7 @@ function Chat({ socket, name, room }) {
           className="relative px-1 py-1 rounded-md"
           style={{ backgroundImage: `url(${ChatBg})` }}
         >
-          <ScrollToBottom className="h-[45em]" style={{ overflowY: "hidden" }}>
+          <ScrollToBottom className="h-[78vh]" style={{ overflowY: "hidden" }}>
             {messageList.map((messageContent, index) => {
               const isCurrentUser = name === messageContent.user;
               return (
@@ -75,7 +75,7 @@ function Chat({ socket, name, room }) {
                     } `}
                   >
                     <p
-                      className={`uppercase text-xl ${
+                      className={`uppercase text-md ${
                         isCurrentUser ? "text-[#ff8fab]" : "text-[#bbdefb]"
                       } font-semibold`}
                     >
